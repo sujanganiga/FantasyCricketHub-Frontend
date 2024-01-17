@@ -1,0 +1,97 @@
+body:hover{
+    background-image:url(hand-painted-watercolor-pastel-sky-background_23-2148902771.avif);
+}
+.header-text {
+    top: -15px;
+    left: -10px;
+    margin-top: 150px;
+    text-align: center;
+}
+.md{
+    margin-top: -100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.vv{
+    font-size: x-large;
+    color: aqua;
+}
+h1{
+    color: brown;
+}
+form {
+    background-color: #faf7f7;
+    padding: 20px;
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+    border:rgb(72, 188, 203); border-width:0.5px; border-style:solid;
+    width:fit-content;
+}
+.form{ 
+    font-weight: bold;
+    margin-top: 50px;
+    
+}
+.required:after{
+content:'*';
+color:red;
+
+}
+/* ................ */
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 150px;
+}
+.layer{
+    margin-left: 150px;
+    background: transparent;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    
+}
+.form:hover {
+    background:url("/hand-painted-watercolor-pastel-sky-background_23-2148902771.avif");
+    /* background-color: ; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.5);
+ }
+.layer h3{
+    width:100%;
+    font-weight:500;
+    color:#000000;
+    font-size:26px;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    position: absolute;
+    text-decoration: solid;
+}
+.layer:hover h3{
+    bottom:49%;
+    opacity:1;
+}
+.ss{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 8em;
+    height:2em;
+    margin-left: -25px;
+    font-weight: 600;
+
+  }
+  
+  .ss:hover {
+    background-color: #3e8e41;
+  }
+  .DD{
+    margin-left: -25px;
+    margin-right: 50px;
+  }

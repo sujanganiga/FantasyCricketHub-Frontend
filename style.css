@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    height: 100%;
+    font-family: calibri,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #272727;
+    font-size: 16px;
+    line-height: 1;
+}
+.container {
+    
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 720px;
+   
+}
+header {
+    font-size: 14px;
+    padding-top: 15px;
+    position: absolute;
+    float: left;
+    text-align: left;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+.row {
+    display:-ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+  
+}
+.lightBgHeader header {
+    background: rgba(114, 162, 115, 0.666);
+    background-image: url("/cricket-pitch-or-field-feat.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+}
+ .col-sm-7 {
+     -ms-flex: 0 0 50%; 
+    flex: 0 0 55%;
+    max-width: 55%;
+}
+.col-sm-5 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 45%;
+    max-width: 75%; 
+}
+.not-member {
+    display: none;
+}
+header .register {
+    background-color:rgb(244, 244, 244);
+    padding: 3px 4px;
+    margin-top: 2px;
+    margin-right: 1px;
+    border: solid 1px rgb(19, 18, 18);
+    padding: 8px 15px;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #cf3f17;
+    margin-left: 23px;
+    font-weight: 800;
+}
+header .loginBtn {
+    background-color: rgb(234, 147, 113);
+    padding: 3px 4px;
+    margin-top: 2px;
+    margin-right: 50px;
+    border: solid 1px rgb(5, 5, 5);
+    padding: 8px 15px;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #470202;
+    margin-left: 23px;
+    text-decoration: solid;
+    font-weight: 600;
+}
+a{
+    background-color: transparent;
+}
+::after, ::before {
+    box-sizing: inherit;
+}
+.logo {
+    width: 140px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 100%;
+    height: auto;
+    display: block;
+    
+} */
+
+.class1{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.viewMore {
+    border: solid 1px #f52015;
+    padding: 5px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #f52015;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 25px;
+    min-width: 200px;
+    
+    transition: all .5s;
+    padding-top: 5.4px;
+} 
+.ipl{
+    margin-top: 190px;
+    height: 25%;
+    width: 25%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: medium;
+    text-decoration: dotted;
+    text-transform: capitalize;
+    word-spacing: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.partnerImg
+{
+    
+    height: 25%;
+    width: 25%;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
